@@ -1,0 +1,4 @@
+﻿  stdafx.cpp
+  Lab 3.10.8 (2).cpp
+c:\users\ігор\desktop\наука\практика\cpa essential\chapter 3\lab 3.10.8 (2)-дороб\lab 3.10.8 (2)\lab 3.10.8 (2).cpp(43): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Lab 3.10.8 (2).vcxproj -> C:\Users\Ігор\Desktop\Наука\Практика\CPA Essential\Chapter 3\Lab 3.10.8 (2)-дороб\Debug\Lab 3.10.8 (2).exe
