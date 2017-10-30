@@ -7,11 +7,7 @@
 #include<ctime>
 using namespace std;
 
-bool IsPresent(int *balls, int val) {
-
-	int ballsCount = sizeof(*balls) / sizeof(balls[0]);
-
-	cout << ballsCount << endl;
+bool IsPresent(int balls[], int val, int ballsCount) {
 
 	for (int i = 0; i < ballsCount; i++) {
 
@@ -41,7 +37,7 @@ int main(void) {
 	for (int i = 0; i < ballsno; i++) {
 		generetedBallNum = rand() % maxball + 1;
 
-		if (IsPresent(ballsMachine, generetedBallNum)) {
+		if (IsPresent(ballsMachine, generetedBallNum,ballsno)) {
 			i--;
 			continue;
 		}
